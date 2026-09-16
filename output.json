@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Nutrition Plan for Powerlifting (8-week competition prep)\n\n## Daily Calorie Target\n**~3,100-3,300 calories/day** (slight surplus for muscle gain)\n- BMR (~1,850) + training (~600-800) + activity factor\n\n## Macronutrient Breakdown\n\n| Macro | Daily Target | Purpose |\n|-------|--------------|---------|\n| **Protein** | 160-180g (2g/kg) | Muscle repair & recovery |\n| **Carbs** | 380-420g (4.6-5.1g/kg) | Fuel for heavy training |\n| **Fat** | 85-105g (1g-1.3g/kg) | Hormone production |\n\n## Meal Structure (Sample Day)\n\n**Breakfast:** Oats + eggs + banana + peanut butter\n**Lunch:** Chicken/beef + rice + vegetables + olive oil\n**Pre-workout:** Rice cakes + honey or banana\n**Post-workout:** Protein shake + fast carbs (dextrose/juice)\n**Dinner:** Fish/red meat + sweet potato + broccoli\n**Snack:** Greek yogurt or casein shake\n\n## Key Priorities\n\n\u2713 **Eat enough** - calories matter most for strength gains\n\u2713 **Protein timing** - 30-40g with each main meal\n\u2713 **Post-workout nutrition** - carbs + protein within 1-2 hours\n\u2713 **Micronutrients** - iron, zinc, magnesium (red meat, nuts, leafy greens)\n\u2713 **Hydration** - 3-4L water daily minimum\n\n**Consider:** Sleep 7-9 hours, manage stress, track intake for 2 weeks to dial in numbers.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "82 kg",
+        "goal": "Maximize strength gains and muscle recovery for powerlifting competition in 8 weeks",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan is compact and formatted for a single day",
+        "Includes at least 4 meals with protein-heavy options (minimum 30g protein per meal)",
+        "At least one meal is strategically timed within 2 hours post-training",
+        "Total daily caloric and macronutrient intake supports strength athlete goals"
+      ],
+      "task_description": "Write a compact, consice 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-heavy meals and strategic meal timing around training sessions"
+    },
+    "score": 3,
+    "reasoning": "The solution provides sound nutritional framework and appropriate macronutrient targets for a powerlifter. However, it critically fails the mandatory requirements by not including exact foods with portions and precise timing. While it mentions 'Sample Day' with meal categories, the lack of specific quantities (e.g., '200g chicken', '150g rice', '7:00 AM') means you cannot verify the stated caloric and macronutrient totals actually align with the provided targets. The task explicitly requires 'exact foods, portions, and timing' which are absent. The solution reads as general guidance rather than a concrete, executable 1-day meal plan."
+  },
+  {
+    "output": "# Pre-Competition Nutrition Plan (3 Days Out)\n\n## Daily Framework\n**Calories:** ~2,000-2,200 (maintenance for 52kg athlete)\n**Macros:** 55-60% carbs | 20-25% protein | 15-20% fat\n\n---\n\n## Meal Structure\n\n### **Breakfast**\n- Oatmeal with banana + almond butter\n- Lactose-free milk or fortified plant milk\n- Toast with honey\n\n### **Mid-Morning**\n- Rice cakes + jam\n- Orange juice or sports drink\n\n### **Lunch**\n- Grilled chicken or fish (120-150g)\n- White rice or pasta (200g cooked)\n- Steamed vegetables (broccoli, carrots)\n- Olive oil drizzle\n\n### **Afternoon Snack** *(Important for rowing power)*\n- Energy bar (low fiber)\n- Dried fruit + nuts\n- Or smoothie: banana, plant milk, protein powder\n\n### **Dinner**\n- White fish or chicken (120g)\n- Sweet potato or regular potato\n- Leafy greens with olive oil\n\n### **Evening**\n- Light carbs 1-2 hours before bed\n  (rice cakes, banana, or toast)\n\n---\n\n## Key Principles\n\u2713 **Carb-loading** (fuel for high-intensity sport)\n\u2713 **Adequate protein** (muscle recovery)\n\u2713 **Avoid high-fiber/heavy foods** (3 days before = digestive comfort)\n\u2713 **Lactose-free alternatives** throughout\n\u2713 **Hydration:** 2.5-3L water daily\n\nWould you like a detailed shopping list or hydration strategy?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "165 cm",
+        "weight": "52 kg",
+        "goal": "Maintain weight while maximizing performance for lightweight rowing competition in 3 days",
+        "restrictions": "Lactose intolerant, no red meat"
+      },
+      "solution_criteria": [
+        "Meal plan totals 1,800-2,000 calories distributed across 4-5 meals",
+        "Includes minimum 120g protein from allowed sources (poultry, fish, eggs, plant-based)",
+        "All meals are dairy-free and red meat-free",
+        "Plan is presented in compact format covering breakfast, lunch, dinner, and snacks"
+      ],
+      "task_description": "Write a compact, consice 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport with strict weight management requirements (jockey or lightweight rower) requiring a calorie-controlled, nutrient-dense plan within tight constraints"
+    },
+    "score": 3,
+    "reasoning": "The solution fails to meet multiple mandatory requirements. While it provides a well-structured framework with appropriate dietary restrictions and general meal categories, it lacks the specificity required: (1) no exact daily caloric total is stated, only a range; (2) portions are vague or missing entirely; (3) meal timing is imprecise; (4) protein totals are never calculated to confirm the 120g minimum. The mandatory requirements explicitly demand 'exact foods, portions, and timing' and 'daily caloric total' - this solution provides neither with sufficient specificity. Additionally, the calorie range (2,000-2,200) contradicts the secondary criterion of 1,800-2,000 calories."
+  },
+  {
+    "output": "# Marathon Training Diet Plan\n\n## Daily Calorie Estimate\n~2,800-3,200 calories (adjust based on training intensity)\n\n## Macro Breakdown\n- **Carbs (60%)**: 420-480g\n- **Protein (20%)**: 140-160g\n- **Fats (20%)**: 62-71g\n\n## Best Foods by Category\n\n### \ud83e\udd55 **High-Carb Foundation (Primary)**\n- Pasta, rice, oats, quinoa\n- Sweet potatoes, regular potatoes\n- Whole grain bread, bagels\n- Legumes (lentils, chickpeas, beans)\n- Fruits (bananas, dates, berries)\n\n### \ud83e\udd5b **Protein Sources (No Nuts)**\n- Greek yogurt, cottage cheese\n- Eggs, milk\n- Tofu, tempeh, edamame\n- Chickpea/lentil pasta\n- Protein powder (plant-based)\n- Seeds: sunflower, pumpkin\n\n### \ud83e\uded2 **Healthy Fats**\n- Olive oil, avocado oil\n- Avocados\n- Seeds (chia, flax, pumpkin)\n- Whole grains\n- Plant-based butter\n\n## Sample Daily Structure\n- **Breakfast**: Oatmeal + berries + seeds + yogurt\n- **Snack**: Banana + protein powder smoothie\n- **Lunch**: Pasta with lentil sauce + veggies\n- **Snack**: Dates + toast\n- **Dinner**: Rice + tofu stir-fry + legumes\n- **Pre/During runs**: Simple carbs (sports drink, banana)\n\n**Hydration is critical for marathon training!**",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training - high-endurance carbohydrate loading with 60% carbs, 20% protein, 20% fats",
+        "restrictions": "Vegetarian, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus snacks for one full day",
+        "Macronutrient ratios approximately match the specified goal (60% carbs, 20% protein, 20% fats)",
+        "Total daily calories support marathon training (approximately 2,800-3,200 kcal for this athlete)",
+        "All meals respect the vegetarian and no-nuts restrictions"
+      ],
+      "task_description": "Write a compact, consice 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate loading with specific macronutrient ratios"
+    },
+    "score": 3,
+    "reasoning": "The solution fails all three MANDATORY requirements: (1) Daily caloric total is estimated but never actually calculated from the suggested meals, (2) Macronutrient breakdown is stated as a target but never verified against the actual meal suggestions, (3) Meals lack exact foods, portions, and timing - they're presented as templates rather than a specific 1-day plan. The response reads as nutritional guidance rather than an actionable meal plan. While the information provided is accurate and well-organized, it does not fulfill the core requirement of presenting 'meals with exact foods, portions, and timing' for a complete day."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "165 cm",
+      "weight": "52 kg",
+      "goal": "Maintain weight while maximizing performance for lightweight rowing competition in 3 days",
+      "restrictions": "Lactose intolerant, no red meat"
+    },
+    "solution_criteria": [
+      "Meal plan totals 1,800-2,000 calories distributed across 4-5 meals",
+      "Includes minimum 120g protein from allowed sources (poultry, fish, eggs, plant-based)",
+      "All meals are dairy-free and red meat-free",
+      "Plan is presented in compact format covering breakfast, lunch, dinner, and snacks"
+    ],
+    "task_description": "Write a compact, consice 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport with strict weight management requirements (jockey or lightweight rower) requiring a calorie-controlled, nutrient-dense plan within tight constraints"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "82 kg",
+      "goal": "Maximize strength gains and muscle recovery for powerlifting competition in 8 weeks",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and formatted for a single day",
+      "Includes at least 4 meals with protein-heavy options (minimum 30g protein per meal)",
+      "At least one meal is strategically timed within 2 hours post-training",
+      "Total daily caloric and macronutrient intake supports strength athlete goals"
+    ],
+    "task_description": "Write a compact, consice 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-heavy meals and strategic meal timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - high-endurance carbohydrate loading with 60% carbs, 20% protein, 20% fats",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus snacks for one full day",
+      "Macronutrient ratios approximately match the specified goal (60% carbs, 20% protein, 20% fats)",
+      "Total daily calories support marathon training (approximately 2,800-3,200 kcal for this athlete)",
+      "All meals respect the vegetarian and no-nuts restrictions"
+    ],
+    "task_description": "Write a compact, consice 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate loading with specific macronutrient ratios"
+  }
+]
